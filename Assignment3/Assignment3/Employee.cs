@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Assignment3
 {
@@ -60,7 +56,7 @@ namespace Assignment3
 
         public override double calculateGrossSalary()
         {
-            return empSalary + PA + PA + OA;
+            return empSalary + PA + FA + OA;
         }
     }
     // derived class of Employee 
@@ -92,8 +88,23 @@ namespace Assignment3
 
         static void Main(string[] args)
         {
-            Manager manager1 = new Manager(101, "zakia Parween", 20000);
-            MarketingExecutive mExecutive1 = new MarketingExecutive(101, "zakia Parween", 20000, 15);
+            Console.WriteLine("Enter the Manager Id");
+            int MId = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Manager Name");
+            string MName = Console.ReadLine();
+            Console.WriteLine("Enter the Manager Salary");
+            double MSalary = Convert.ToDouble(Console.ReadLine());
+            Manager manager1 = new Manager(MId, MName, MSalary);
+
+            Console.WriteLine("Enter the MarketingExecutive Id");
+            int MEId = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the MarketingExecutive Name");
+            string MEName = Console.ReadLine();
+            Console.WriteLine("Enter the MarketingExecutive Salary");
+            double MESalary = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the Travelling Km");
+            int MKm = Convert.ToInt32(Console.ReadLine());
+            MarketingExecutive mExecutive1 = new MarketingExecutive(MEId, MEName, MESalary, MKm);
 
             double managerSalary = manager1.calculateGrossSalary();
             double mExecutiveSalary = mExecutive1.calculateGrossSalary();
