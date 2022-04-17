@@ -2,7 +2,7 @@
 
 namespace Assignment2
 {
-    internal class Employee
+    internal class Employee1
     {
         private int EmpNo { get; set; }
         private string EmpName { get; set; }
@@ -17,53 +17,53 @@ namespace Assignment2
 
         // Parameterized Constructor
         // User defined
-        public Employee(int empNumber, string empName, double empSalary)
+        public Employee1(int empNumber, string empName, double empSalary)
         {
             EmpNo = empNumber;
             empName = empName;
             Salary = empSalary;
             if (Salary >= 20000)
             {
-                HRA = Salary * 30 / 100;
-                TA = Salary * 25 / 100;
-                DA = Salary * 35 / 100;
-                GrossSalary = Salary + HRA + TA + DA;
+                HRA = (double)Salary * 30 / 100;
+                TA = (double)Salary * 25 / 100;
+                DA = (double)Salary * 35 / 100;
+                GrossSalary = (double)Salary + HRA + TA + DA;
             }
             else if (Salary >= 15000)
             {
-                HRA = Salary * 25 / 100;
-                TA = Salary * 20 / 100;
-                DA = Salary * 30 / 100;
-                GrossSalary = Salary + HRA + TA + DA;
+                HRA = (double)Salary * 25 / 100;
+                TA = (double)Salary * 20 / 100;
+                DA = (double)Salary * 30 / 100;
+                GrossSalary = (double)Salary + HRA + TA + DA;
             }
             else if (Salary >= 10000)
             {
-                HRA = Salary * 20 / 100;
-                TA = Salary * 15 / 100;
-                DA = Salary * 25 / 100;
-                GrossSalary = Salary + HRA + TA + DA;
+                HRA = (double)Salary * 20 / 100;
+                TA = (double)Salary * 15 / 100;
+                DA = (double)Salary * 25 / 100;
+                GrossSalary = (double)Salary + HRA + TA + DA;
             }
             else if (Salary >= 5000)
             {
-                HRA = Salary * 15 / 100;
-                TA = Salary * 10 / 100;
-                DA = Salary * 20 / 100;
-                GrossSalary = Salary + HRA + TA + DA;
+                HRA = (double)Salary * 15 / 100;
+                TA = (double)Salary * 10 / 100;
+                DA = (double)Salary * 20 / 100;
+                GrossSalary = (double)Salary + HRA + TA + DA;
             }
             else
             {
-                HRA = Salary * 10 / 100;
-                TA = Salary * 5 / 100;
-                DA = Salary * 15 / 100;
-                GrossSalary = Salary + HRA + TA + DA;
+                HRA = (double)Salary * 10 / 100;
+                TA = (double)Salary * 5 / 100;
+                DA = (double)Salary * 15 / 100;
+                GrossSalary = (double)Salary + HRA + TA + DA;
             }
         }
 
         public void CalculateSalary()
         {
-            this.PF = this.GrossSalary * 10 / 100;
-            this.TDS = this.GrossSalary * 18 / 100;
-            this.NetSalary = this.GrossSalary - (this.PF + this.TDS);
+            PF = (double)GrossSalary * 10 / 100;
+            TDS = (double)GrossSalary * 18 / 100;
+            NetSalary = (double)GrossSalary - (PF + TDS);
         }
 
         public void displayGrossSalary()
@@ -72,7 +72,7 @@ namespace Assignment2
             // return GrossSalary;
         }
     }
-    public class HelloWorld
+    public class Employee
     {
         public static void Main(string[] args)
         {
@@ -83,10 +83,8 @@ namespace Assignment2
             Console.WriteLine("Enter Employee Employee's Salaray': ");
             double salaray = Convert.ToDouble(Console.ReadLine());
 
-            Employee emp = new Employee(empId, empName, salaray);
-            emp.displayGrossSalary();
-            // Console.WriteLine("Gross salary of employee " + salary);
-            // Console.WriteLine("Gross salary of employee " + emp.GrossSalary);
+            Employee1 emp = new Employee1(empId, empName, salaray);
+            emp.displayGrossSalary();           
             Console.ReadLine();
         }
 

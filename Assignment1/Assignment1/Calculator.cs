@@ -8,7 +8,7 @@ namespace Assignment1
         {
             int result = 0;
             Console.WriteLine("Enter First Number: ");
-            int num1 = int.Parse(Console.ReadLine());
+            int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter Second Number: ");
             int num2 = int.Parse(Console.ReadLine());
             Console.WriteLine("1 for Addition: ");
@@ -16,7 +16,7 @@ namespace Assignment1
             Console.WriteLine("3 for Multiplication: ");
             Console.WriteLine("4 for Division: ");
             Console.WriteLine("Enter key to perform opration: ");
-            int opr = int.Parse(Console.ReadLine());
+            int opr = Convert.ToInt32(Console.ReadLine());
 
             switch (opr)
             {
