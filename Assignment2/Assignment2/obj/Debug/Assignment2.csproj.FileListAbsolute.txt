@@ -1,8 +1,0 @@
-C:\Users\HP\source\repos\CsharpAssignment\Assignment2\Assignment2\bin\Debug\Assignment2.exe.config
-C:\Users\HP\source\repos\CsharpAssignment\Assignment2\Assignment2\bin\Debug\Assignment2.exe
-C:\Users\HP\source\repos\CsharpAssignment\Assignment2\Assignment2\bin\Debug\Assignment2.pdb
-C:\Users\HP\source\repos\CsharpAssignment\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.AssemblyReference.cache
-C:\Users\HP\source\repos\CsharpAssignment\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\source\repos\CsharpAssignment\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.CoreCompileInputs.cache
-C:\Users\HP\source\repos\CsharpAssignment\Assignment2\Assignment2\obj\Debug\Assignment2.exe
-C:\Users\HP\source\repos\CsharpAssignment\Assignment2\Assignment2\obj\Debug\Assignment2.pdb

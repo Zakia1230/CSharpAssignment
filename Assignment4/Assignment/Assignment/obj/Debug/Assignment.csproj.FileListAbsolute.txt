@@ -1,8 +1,0 @@
-C:\Users\HP\source\repos\Assignment\Assignment\bin\Debug\Assignment.exe.config
-C:\Users\HP\source\repos\Assignment\Assignment\bin\Debug\Assignment.exe
-C:\Users\HP\source\repos\Assignment\Assignment\bin\Debug\Assignment.pdb
-C:\Users\HP\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
-C:\Users\HP\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
-C:\Users\HP\source\repos\Assignment\Assignment\obj\Debug\Assignment.exe
-C:\Users\HP\source\repos\Assignment\Assignment\obj\Debug\Assignment.pdb

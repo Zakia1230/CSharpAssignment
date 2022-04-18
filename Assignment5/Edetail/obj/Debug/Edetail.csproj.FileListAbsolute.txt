@@ -1,8 +1,0 @@
-C:\Users\HP\source\repos\Edetail\Edetail\bin\Debug\Edetail.exe.config
-C:\Users\HP\source\repos\Edetail\Edetail\bin\Debug\Edetail.exe
-C:\Users\HP\source\repos\Edetail\Edetail\bin\Debug\Edetail.pdb
-C:\Users\HP\source\repos\Edetail\Edetail\obj\Debug\Edetail.csproj.AssemblyReference.cache
-C:\Users\HP\source\repos\Edetail\Edetail\obj\Debug\Edetail.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\source\repos\Edetail\Edetail\obj\Debug\Edetail.csproj.CoreCompileInputs.cache
-C:\Users\HP\source\repos\Edetail\Edetail\obj\Debug\Edetail.exe
-C:\Users\HP\source\repos\Edetail\Edetail\obj\Debug\Edetail.pdb
