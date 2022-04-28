@@ -1,0 +1,31 @@
+1. mkdir project_dir  -> to create new directory
+   cd project_dir/
+2. git init
+3. touch index.html
+4. git status -> Untracked files:
+ (use "git add <file>..." to include in what will be committed)
+	index.html
+
+5. git add index.html - For staging
+ Git status
+6. git commit -m "my first commit"
+7. git remote  add origin https://github.com/Zakia1230/project_dir.git
+8. git push origin master
+9. git status -> modified:   index.html
+10. Untracked files: info.txt
+11. git status -> modified:   index.html
+12. git add index.html
+13. git commit -m "Added gitignore file"
+14. git log
+ git status -> modified:   index.html
+15. git stash
+ git status -> modified:   index.html
+16. git add index.html
+17. git reset
+  Unstaged changes after reset:
+  M	index.html
+
+18. git config --global alias.add 'my_add'
+19. git my_add index.html
+  git commit -m "commit to revert"
+20. git revert a781cae08e5229cbf759dd319710009961b738e4(commit id to revert)

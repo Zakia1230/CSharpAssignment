@@ -1,0 +1,64 @@
++++++++++GIT BRANCHING++++++++++
+--SECTION-1---html-assignments--------
+21>. Clone
+22>.  mkdir Assignments  cd Assignments
+23>. echo.>READ.txt
+24>. Git commit -m “first commit”
+25>. git checkout - b html-assignments master
+26>. Git checkout html-assignments
+27>. Git merge master
+28>. First made changes in the file then addd it and made commit in it
+29>. And 30>. same
+31>. git checkout master
+38>. git branch -d html-assignments
+git push origin master
+
+--SECTION-2---css-assignments--------
+1>. git branch css-assigment
+2>. git checkout css-assigment
+3>. git merge master
+4>. changes in README.txt file
+5>. git add .
+    git commit -m "first commit"
+6>. git checkout master
+7>. changes in README.txt file
+    git add .
+    git commit -m "first commit on master"
+8>. git push origin master
+9>. git checkout css-assigment
+10>. changes in README.txt file
+11>. git add .
+    git commit -m "first commit"
+12>. git checkout master
+13>. git merge css-assigment
+14>. git branch -d css-assigment
+    git push origin -d css-assigment
+
+--SECTION-3---javascript-assignments--------
+1>. git branch javascript-assignments
+2>. git checkout javascript-assignments
+3>. git merge master
+4>. changes in README.txt file
+5>. git add .
+    git commit -m "first commit"
+6>. git checkout master
+7>. changes in README.txt file
+    git add .
+    git commit -m "first commit on master"
+8>. git push origin master
+9>. git checkout javascript-assignments
+10>. changes in README.txt file
+11>. git add .
+    git commit -m "first commit"
+12>. git checkout master
+13>. git merge javascript-assignments
+14>. git branch -d javascript-assignments
+    git push origin -d javascript-assignments
+
+
++++++++++++GIT REMOTING++++++++++++
+SECTION 3
+39>. Create a github account
+40>. Log by id and password
+41>. Create and name it freshersbatch-oct16
+42>. Make a clone then add a file and the add it then commit and push it on git.
